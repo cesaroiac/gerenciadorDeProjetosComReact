@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# gerenciadorDeProjetosComReact
 
-## Available Scripts
+O seguinte sistema foi desenvolvido em React para demonstrar meus conhecimentos. Basicamente, o usuário pode cadastrar os dados do projeto como nome, descrição e investimento necessário e o próprio sistema calcula se é viável ou não a sua criação com base em parâmetros pré-estabelecidos para cada tipo de projeto. Ou seja, se o teto para projetos de saúde é 60.000, não é possível criar projetos que somados ultrapassem esse teto. Além disso, é possível criar, editar e deletar as categorias e projetos.
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+- [Descrição](#descrição)
+- [Como Clonar o Repositório](#como-clonar-o-repositório)
+- [Como Usar](#como-usar)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Contato](#contato)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Descrição
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto é um gerenciador de projetos desenvolvido para facilitar o controle de viabilidade de projetos com base em parâmetros financeiros pré-definidos. O sistema permite a criação, edição e exclusão de categorias e projetos, garantindo que os limites financeiros sejam respeitados para diferentes tipos de projetos.
 
-### `npm test`
+## Como Clonar o Repositório
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para clonar o repositório, execute o seguinte comando no seu terminal:
 
-### `npm run build`
+```bash
+git clone https://github.com/cesaroiac/gerenciadorDeProjetosComReact.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Em seguida, navegue até o diretório do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+cd gerenciadorDeProjetosComReact
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Como Usar
 
-### `npm run eject`
+1. Certifique-se de ter o Node.js instalado em sua máquina.
+2. Instale as dependências do projeto executando o comando:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento com o comando:
+   ```bash
+   npm start
+   ```
+4. Abra o navegador e acesse `http://localhost:3000` para visualizar o aplicativo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Cadastro de Projetos:** Adicione novos projetos com nome, descrição e investimento necessário.
+- **Validação de Investimento:** O sistema valida o investimento com base em parâmetros pré-estabelecidos para cada categoria de projeto.
+- **Gestão de Categorias:** Crie, edite e delete categorias de projetos.
+- **Gestão de Projetos:** Crie, edite e delete projetos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tecnologias Utilizadas
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este projeto utiliza as seguintes tecnologias:
 
-## Learn More
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Node.js (para o ambiente de desenvolvimento)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contato
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Se você tiver alguma dúvida, sugestão ou feedback, sinta-se à vontade para entrar em contato:
 
-### Code Splitting
+- **Nome:** Caio César
+- **Email:** cesaroiac25@gmail.com
+- **LinkedIn:** [cesaroiac](https://www.linkedin.com/in/cesaroiac/)
+- **GitHub:** [cesaroiac](https://github.com/cesaroiac)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+Espero que este projeto seja útil para você e que o aprendizado adquirido seja aplicável em seus futuros projetos. Agradeço por visitar este repositório!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
